@@ -1,0 +1,61 @@
+/* Responsive Desktop */
+/* @media screen and (min-width:1200px){
+  .hero{
+    width: 1000px;
+  }
+} */
+
+/* responsive tablet*/
+@media screen and (max-width: 768px) {
+    .hero{
+      height: auto;
+    }
+    .card-list{
+      width: 40%;
+      margin: 1em 0;
+    }
+    .card-img{
+      height: 50%;
+    }
+    nav ul{
+      width: 50%;
+    }
+  }
+  
+  /* Responsive mobile */
+  @media screen and (max-width: 576px) {
+  
+    .card-list{
+      width: 100%;
+      margin: 1em;
+    }
+  
+    #menu{
+      display: flex;
+      z-index: 1;
+    }
+    nav ul{
+      position: fixed;
+      top: 0;
+      height: 100vh;
+      right: 0;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+       /* Warna background hitam tipis */
+      background-color: rgba(0,0,0,0.4);
+      /* Tambah efek blur pada background */
+      backdrop-filter: blur(5px);
+      right: -100%;
+      transition: all 2s;
+  
+    }
+    nav ul.open{
+      right: 0;
+    }
+    
+    .hero{
+      z-index: -2;
+      height: auto;
+    }
+  }
