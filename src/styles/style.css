@@ -106,7 +106,7 @@ nav ul li a:hover{
   /* padding: 10px; */
 }
 
-.movie-item__header__rating {
+.resto-item__header__rating {
   padding: 8px;
   bottom: 20px;
   left: 0;
@@ -164,11 +164,11 @@ nav ul li a:hover{
   gap: 18px 16px;
 }
 
-.detail-resto .movie__poster {
+.detail-resto .resto__poster {
   width: 100%;
   max-width: 400px;
 }
-.detail-resto .movie__info h4 {
+.detail-resto .resto__info h4 {
   margin: 8px 0;
 }
 
